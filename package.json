@@ -1,0 +1,47 @@
+{
+  "name": "shareskills",
+  "version": "1.0.0",
+  "description": "Synchronize AI agent skills and custom instructions across different IDEs and tools (Cursor, Windsurf, Antigravity, etc.) into one central Hub.",
+  "main": "dist/index.js",
+  "bin": {
+    "shareskills": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.7.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "test": "vitest run",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [
+    "ai",
+    "skills",
+    "cursor",
+    "windsurf",
+    "antigravity",
+    "sync",
+    "automation",
+    "cli"
+  ],
+  "author": "ShareSkills Contributors",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.1.0",
+    "commander": "^14.0.3",
+    "picocolors": "^1.1.1"
+  }
+}
