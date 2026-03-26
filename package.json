@@ -1,10 +1,10 @@
 {
-  "name": "shareskills",
+  "name": "skillhubs",
   "version": "1.0.0",
   "description": "Synchronize AI agent skills and custom instructions across different IDEs and tools (Cursor, Windsurf, Antigravity, etc.) into one central Hub.",
   "main": "dist/index.js",
   "bin": {
-    "shareskills": "dist/index.js"
+    "skillhubs": "dist/index.js"
   },
   "files": [
     "dist",
@@ -30,7 +30,7 @@
     "automation",
     "cli"
   ],
-  "author": "ShareSkills Contributors",
+  "author": "zzkkui",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
